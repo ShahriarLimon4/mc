@@ -1,0 +1,214 @@
+/* common str */
+body{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px ;
+    font-weight: 400;
+    color: #3d2514;
+}
+/* common end */
+
+/* header str */
+header{
+    padding: 25px 0;
+    padding: 1px solid red;
+}
+.container{
+    overflow: hidden;
+    margin: 0 auto;
+    width: 90%;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.logo a{}
+.logo a img{
+    width: 100%;
+}
+.menu{
+    width: 60%;
+    float: right;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+.menu ul li a{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    color: #3d2514;
+    text-decoration: none;
+    padding: 0 25px;
+    display: inline-block;
+}
+.menu ul li:last-child a{
+    padding-right: 0;
+}
+.menu ul li a:hover{
+    text-decoration: underline;
+}
+/* header end */
+/* banner str */
+.banner{
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 35px 0 70px;
+}
+.btext{
+    margin-top: 140px;
+    width: 48%;
+    float: left;
+}
+.btext p{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 23px;
+    border: 3px dashed #3d2514;
+    padding: 5px 10px;
+    display: inline-block;
+}
+.btext h1{ 
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 140px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0 0 -20px;
+    line-height: 110px;
+}
+.btext h2{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 56px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0 x;
+    line-height: 55px;
+}
+.bimg{
+    width: 50%;
+    float: right;
+    position: relative;
+}
+.bimg img{
+    width: 100%;
+}
+.bwrapper{
+    width: 170px;
+    height: 170px;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+.btag{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    border: 3px dashed white;
+    border-radius: 50%;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    line-height: 40px;
+}
+.b3{
+    font-size: 55px;
+}
+.b1{
+    font-size: 30px;
+}
+.b2{
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+/* banner end */
+/* feature str */
+.feature{
+    margin-top: 80px;
+}
+.container2{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-bottom: 200px;
+}
+.f-wripper{
+    overflow: hidden;
+}
+.s1{
+    background-image: url(../img/burger-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    height: 420px;
+    width: 48%;
+    float: left;
+    
+}
+.f-wripper h3{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    color: white;
+    margin: 0;
+    padding: 30px 00px 00px 30px;
+    letter-spacing: 2px;
+}
+.f-wripper h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 35px;
+    color: white;
+    padding: 00px 00px 00px 30px;
+    margin: 0;
+    letter-spacing: 2px;
+}
+.s2{ 
+    height: 420px;
+    width: 48%;
+    float: right;       
+}
+.s2-img1{
+    background-image: url(../img/burger-banner2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    height: 200px;
+}
+.s2-img2{
+    background-image: url(../img/burger-banner3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin-top: 20px;
+    height: 200px;  
+}
+/* feature end */
+
+/* menu page str */
+.menu2{}
+.container3{
+    margin: 0;
+}
+.menu-text{
+    text-align: center;
+}
+.menu-text h3{
+
+}
+.menu-text h1{
+
+}
+.menu-text p{
+
+}
+/* menu page end */

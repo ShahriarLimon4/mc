@@ -1,0 +1,6 @@
+font-family: 'Montserrat', sans-serif;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Alfa Slab One', cursive;
+marun- #3d2514
+red- #bf2222
+yellow- #ffc045
